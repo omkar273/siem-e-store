@@ -1,0 +1,62 @@
+/* import statements */
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+
+/* Variables */
+:root {
+    --main-colour: #8B5FBF;
+    --filler-colour: #0C0F0A;
+    --secondary-colour: #FFFCE8;
+    --primary-colour: #FF5A5F;
+
+    --color1: #CA90FF;
+    --color2: #00C9AB;
+
+    --font: 'Gloock', serif;
+}
+
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font);
+    font-size: 1rem;
+    min-height: 100vh;
+    scroll-margin-top: 3rem;
+    margin-top: 3.5rem;
+    background-color: var(--secondary-colour);
+}
+
+/* header / navar styling */
+
+nav {
+    background-color: var(--main-colour);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    min-width: 100%;
+    height: auto;
+    white-space: nowrap;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 1rem;
+    color: var(--secondary-colour);
+    background-color: var(--main-colour);
+
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: #008571;
+    transform: scale(1.2);
+}
+
+nav a:first-child {
+    background-color: var(--color2);
+}
