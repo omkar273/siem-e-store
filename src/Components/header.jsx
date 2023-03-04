@@ -5,10 +5,10 @@ const Header = () => {
         <div >
             <header class="nav_container">
                 <nav class="nav">
-                    <a class="active" href="#home">Home</a>
-                    <a href="#news">search</a>
-                    <a href="#news">Explore</a>
-                    <a href="#news">Movies</a>
+                    <a class="active" href="/">Home</a>
+                    <a href="/inc">search</a>
+                    <a href="/data">Explore</a>
+                    <a href="/netflix">Movies</a>
                     <a href="#news">Web-series</a>
                 </nav>
             </header>
